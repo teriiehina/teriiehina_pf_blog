@@ -13,7 +13,7 @@ Ainsi, si je souhaite lancer un service pour _smartphones_ qui ne concerne pas l
 Bref, l'idée est donc d'augmenter le marché des _mobinautes_ (LOL) en Polynésie française. Pour cela, deux pistes simples:
 
   - ne pas décompter les connexions Internet "locales" des forfaits 3G
-  - en cas de dépasser de forfait, brider le débit plutôt que de facturer la consommation hors-forfait
+  - en cas de dépassement de forfait, brider le débit plutôt que de facturer la consommation hors-forfait
 
 # Ne pas décompter les connexions Internet "locales" des forfaits 3G
 
@@ -23,7 +23,7 @@ C'est une vraie fausse bonne idée car même si elle est appliquée dans le "bon
 
 Cependant, sur notre petit territoire (en population), le risque de déséquilibrer commercialement le Net mondial est assez faible et cette mesure encouragerait ces chères _start ups_ que tout politique digne de ce nom se doit de considérer comme la panacée aux problèmes de notre monde (pour ma part, j'ai plus souvent besoin de manger que d'utiliser Uber, mais ça sera le sujet d'une prochaine note).
 
-# En cas de dépasser de forfait, brider le débit plutôt que de facturer la consommation hors-forfait
+# En cas de dépassement de forfait, brider le débit plutôt que de facturer la consommation hors-forfait
 
 Les opérateurs, n'ayant plus LA vache à lait des dernières années (nom officiel: le SMS), ils se rabattent sur ce qu'ils peuvent. Et une des techniques est la facturation de dépassement. Elle ne date pas d'hier, mais dans un contexte d'informatique mobile, elle prend une toute autre dimension.
 
@@ -36,5 +36,5 @@ Une solution à mi-chemin entre le "tout-gratuit" et le "je-te-prends-aussi-ta-c
 
 #TL;DR
 
-Abaisser les coûts d'utilisation du net mobile local tout en empêchant des hors-forfaits ruineux augmente mécaniquement l'usage, donc le marché. Et nous vivons dans une économie de marché.
+Deux mesures simples, abaisser les coûts d'utilisation du net mobile local tout en empêchant des hors-forfaits ruineux, augmentent mécaniquement l'usage, donc le marché. Et nous vivons dans une économie de marché.
 
