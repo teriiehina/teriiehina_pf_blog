@@ -1,8 +1,7 @@
 ---
-title: About
-permalink: /about/
+title: Mentions légales
+permalink: /mentions/
 ---
-
 
 # Éditeur
 

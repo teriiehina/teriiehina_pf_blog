@@ -7,10 +7,12 @@ markdown:           rdiscount
 
 # Navigation
 nav:
-  - name:           "About"
-    href:           "http://teriiehina.github.io/"
-#  - name:           "Download"
-#    href:           "//github.com/gfjaru/Kiko/releases"
+  - name:           "Github"
+    href:           "https://github.com/teriiehina"
+  - name:           "StackOverflow"
+    href:           "http://stackoverflow.com/users/700317/teriiehina"
+  - name:           "LinkedIn"
+    href:           "https://www.linkedin.com/in/teriiehina"
 
 # Sass
 sass:
@@ -30,3 +32,8 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
+
+# RSS
+
+url            : "http://www.teriiehina.pf/blog"
+author         : "Peter MEUEL"
