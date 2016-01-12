@@ -4,7 +4,7 @@ title: Bug OSX / Keychain pour un CSR
 
 Un développeur voulant faire quoi que ce soit auprès d'Apple (mettre en ligne une app, faire du push, vendre des <acronym title="In-app Purchase">IAP</acronym>) doit passer par la création d'un certificat. Pour obtenir un certificat auprès d'Apple, il faut leur envoyer une <acronym title="Certificate Signing Request">CSR</acronym>. Pour créer une CSR, il faut passer par l'application «Trousseau d'accès» (ou les lignes de commandes correspondantes).
 
-![lol]({{site.baseurl}}/images/bug_osx_keychain.png)
+![Le Trousseau d'Accès]({{site.baseurl}}/images/bug_osx_keychain.png)
 
 DONC si vous ne pouvez pas créer de CSR, vous n'avez pas de certificat et donc ni app, ni push ni quoi que ce soit chez Apple... Et devinez qui se bat depuis ce matin pour créer une **put_!&** de **me$@!** de CSR de mes deux ?
 
@@ -27,5 +27,8 @@ alors que `certtool c` (préliminaire à `certtool r`) me donne plutôt du :
     CSSM_GenerateKeyPair: CSSMERR_DL_DATABASE_CORRUPT
 
 Oh, et **juste pour le fun**, les forums recommandent d'utiliser le «Keychain Firs Aid» dans le menu de l'application. Si vous re-jeter un coup d'œil à la copie d'écran en tête de ce billet, vous comprendrez à quel point ma matinée a été **lolesque**.
+
+![Le First Aid du menu]({{site.baseurl}}/images/bug_osx_keychain_2.jpg)
+
 
 Si par pur hasard, une âme charitable passait par là avec la solution, je donnerai son prénom à mon premier enfant. Merci de votre attention
