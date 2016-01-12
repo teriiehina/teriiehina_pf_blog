@@ -28,7 +28,7 @@ alors que `certtool c` (préliminaire à `certtool r`) me donne plutôt du :
 
 Oh, et **juste pour le fun**, les forums recommandent d'utiliser le «Keychain Firs Aid» dans le menu de l'application. Si vous re-jeter un coup d'œil à la copie d'écran en tête de ce billet, vous comprendrez à quel point ma matinée a été **lolesque**.
 
-![Le First Aid du menu]({{site.baseurl}}/images/bug_osx_keychain_2.jpg)
+![Le First Aid du menu]({{site.baseurl}}/images/bug_osx_keychain_2.png)
 
 
 Si par pur hasard, une âme charitable passait par là avec la solution, je donnerai son prénom à mon premier enfant. Merci de votre attention
