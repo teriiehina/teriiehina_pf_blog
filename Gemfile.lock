@@ -1,4 +1,5 @@
 GEM
+  remote: https://rubygems.org/
   specs:
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
@@ -45,4 +46,4 @@ DEPENDENCIES
   rdiscount
 
 BUNDLED WITH
-   1.13.1
+   1.13.6

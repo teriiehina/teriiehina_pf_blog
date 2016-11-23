@@ -29,9 +29,9 @@ rsync_to_blog:
   script:
     - gem install bundler
     - bundle install
-    - jekyll build -d public
+    - jekyll build
     - echo $SSH_KEY_TERIIEHINA_BLOG_CI > ~/.ssh/id_rsa
     - ssh-add ~/.ssh/id_rsa
-    - ./deploy
+    - rsync -r ./_site/* teriiehina_blog@teriiehina.blog:~/teriiehina.blog
   only:
     - master
