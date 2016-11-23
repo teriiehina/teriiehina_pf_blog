@@ -1,19 +1,8 @@
 image: ruby:2.3
 
-test:
-  stage: test
-  script:
-    - gem install bundler
-    - bundle install
-    - jekyll build -d test
-  artifacts:
-    paths:
-      - test
-  except:
-    - master
-
 pages:
   stage: deploy
+  environment: staging
   script:
     - gem install bundler
     - bundle install
@@ -21,11 +10,10 @@ pages:
   artifacts:
     paths:
       - public
-  except:
-    - master
 
 rsync_to_blog:
   stage: deploy
+  environment: production
   script:
     - gem install bundler
     - bundle install
