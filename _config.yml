@@ -1,5 +1,5 @@
 name:               "Peter MEUEL"
-baseurl:            "/blog"
+baseurl:            ""
 permalink:          /:year/:month/:day/:title.html
 
 # Markdown
@@ -35,5 +35,5 @@ defaults:
 
 # RSS
 
-url            : "http://www.teriiehina.pf/blog"
+url            : "https://teriiehina.blog"
 author         : "Peter MEUEL"
