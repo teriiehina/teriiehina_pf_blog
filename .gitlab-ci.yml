@@ -17,7 +17,7 @@ pages:
   script:
     - gem install bundler
     - bundle install
-    - jekyll build -d public
+    - jekyll build -d public --config _config.gitlab.yml
   artifacts:
     paths:
       - public

@@ -1,0 +1,39 @@
+name:               "Peter MEUEL"
+baseurl:            "/teriiehina_blog"
+permalink:          /:year/:month/:day/:title.html
+
+# Markdown
+markdown:           rdiscount
+
+# Navigation
+nav:
+  - name:           "Github"
+    href:           "https://github.com/teriiehina"
+  - name:           "StackOverflow"
+    href:           "http://stackoverflow.com/users/700317/teriiehina"
+  - name:           "LinkedIn"
+    href:           "https://www.linkedin.com/in/teriiehina"
+
+# Sass
+sass:
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+
+# RSS
+
+url            : "http://teriiehina.gitlab.io/teriiehina_blog/"
+author         : "Peter MEUEL"
