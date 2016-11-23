@@ -19,6 +19,7 @@ rsync_to_blog:
     - bundle install
     - jekyll build
     - echo $SSH_KEY_TERIIEHINA_BLOG_CI > ~/id_rsa
+    - ssh-agent -s
     - ssh-add ~/id_rsa
     - rsync -r ./_site/* teriiehina_blog@teriiehina.blog:~/teriiehina.blog
   only:
