@@ -1,3 +1,3 @@
 #!/bin/bash
 jekyll build
-scp -r ./_site/* teriiehina.blog:~/teriiehina.blog
+rsync -r ./_site/* teriiehina.blog:~/teriiehina.blog
