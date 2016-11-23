@@ -21,7 +21,7 @@ pages:
   artifacts:
     paths:
       - public
-  only:
+  except:
     - master
 
 rsync_to_blog:
